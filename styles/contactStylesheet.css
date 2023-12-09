@@ -1,9 +1,0 @@
-#mailId, #phoneId{
-    display: inline-block;
-    cursor: pointer;
-}
-
-#infoText img{
-    height: 80px;
-    margin: 0 25px;
-}
