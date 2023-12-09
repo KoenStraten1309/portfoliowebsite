@@ -1,0 +1,117 @@
+/* General settings */
+
+    body{
+        background: #181A1B;
+        margin: 0;
+        font-family: 'Neue Haas Grotesk Text Pro', Rockwell, Arial, Helvetica, sans-serif;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    h2, h3{
+        color: rgb(179, 179, 179);
+    }
+
+/* Navigation bar */
+
+    #navBar{
+        background: #19212C;
+        padding: 20px;
+    }
+
+    #navBar li{
+        display: inline;
+    }
+
+    #navBar a{
+        display: inline;
+        text-decoration: none;
+        color: #dadada;
+        font-weight: bold;
+        padding: 0 20px;
+        opacity: .65;
+        transition: 0.8s;
+    }
+
+    #navBar a:hover{
+        opacity: 1;
+    }
+
+    #navBar #focusedItem{
+        opacity: 1;
+        color: #FF006E;
+    }
+
+    #rightNav a{
+        position: absolute;
+        right: 0;
+    }
+
+/* Main attraction content */
+
+    #infoDiv{
+        background-image: url(../images/bakgrund.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 100vw;
+        height: 805px;
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    #nameText{
+        color: #FF006E;
+        text-shadow: 5px 5px 0px #ff9090a9;
+        opacity: .65;
+        font-size: 95px;
+    }
+
+    #infoText{
+        font-size: 24px;
+        text-shadow: 3px 3px 2px #000000;
+        color: rgb(158, 158, 158);
+    }
+
+    #infoText a, .link{
+        text-decoration: none;
+        color: #d4d4d4;
+    }
+
+    #infoButtons{
+        margin-top: 80px;
+    }
+
+    #infoButtons a{
+        text-decoration: none;
+        padding: 10px 30px;
+        margin: 0 25px;
+        border-radius: 16px;
+        font-weight: bold;
+        color: #dadada;
+        background-color: #c90157;
+        opacity: .65;
+        transition: 0.8s;
+    }
+
+    #infoButtons a:hover{
+        opacity: 1;
+    }
+
+    .superscript{
+        vertical-align: super;
+        font-size: 50%;
+        color: #FFFFFF;
+    }
+
+/* Footer */
+
+    #footerText{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: #dadada;
+        font-weight: bold;
+        padding: 0 20px;
+    }

@@ -1,0 +1,33 @@
+#infoText img, #infoText div{
+    display: inline-block;
+}
+
+#infoText img{
+    margin-bottom: 26px;
+    opacity: .85;
+}
+
+#infoText div{
+    margin-left: 50px;
+}
+
+#infoText p{
+    font-size: 18px;
+}
+
+#languagesUsed{
+    font-size: 24px;
+}
+
+#sources h3{
+    margin: 50px 0;
+}
+
+#sources p{
+    font-size: 18px;
+    text-align: center;
+}
+
+#source1{
+    padding-bottom: 208px;
+}

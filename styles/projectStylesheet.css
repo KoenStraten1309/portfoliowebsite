@@ -1,0 +1,22 @@
+#infoDiv img{
+    transition: 0.8s;
+    opacity: 0.80;
+    width: 300px;    
+}
+
+#infoDiv img:hover{
+    opacity: .95;
+}
+
+#sudokuSolver, #averageTimeCalculator{
+    cursor: pointer;
+}
+
+#sudokuSolverDiv, #averageTimeCalculatorDiv{
+    display: inline-block;
+    margin: 0 25px;
+}
+
+#averageTimeCalculator{
+    margin-bottom: 122px;
+}
